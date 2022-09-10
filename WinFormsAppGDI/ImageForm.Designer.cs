@@ -29,7 +29,21 @@ namespace WinFormsAppGDI
         /// </summary>
         private void InitializeComponent()
         {
+            this.pictureBoxImage = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBoxImage
+            // 
+            this.pictureBoxImage.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxImage.Name = "pictureBoxImage";
+            this.pictureBoxImage.Size = new System.Drawing.Size(759, 386);
+            this.pictureBoxImage.TabIndex = 0;
+            this.pictureBoxImage.TabStop = false;
+            this.pictureBoxImage.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBoxImage_Paint);
+            this.pictureBoxImage.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBoxImage_MouseDown);
+            this.pictureBoxImage.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBoxImage_MouseMove);
+            this.pictureBoxImage.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxImage_MouseUp);
             // 
             // ImageForm
             // 
@@ -37,6 +51,7 @@ namespace WinFormsAppGDI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(759, 386);
+            this.Controls.Add(this.pictureBoxImage);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ImageForm";
@@ -45,10 +60,13 @@ namespace WinFormsAppGDI
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImageForm_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ImageForm_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ImageForm_MouseUp);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox pictureBoxImage;
     }
 }
