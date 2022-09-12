@@ -42,6 +42,7 @@ namespace WinFormsAppGDI
             this.Name = "ImageForm";
             this.Text = "ImageForm";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.ImageForm_Paint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ImageForm_MouseClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImageForm_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ImageForm_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ImageForm_MouseUp);

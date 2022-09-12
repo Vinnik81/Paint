@@ -182,5 +182,10 @@ namespace WinFormsAppGDI
         {
             Index = 5;
         }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            Index = 6;
+        }
     }
 }

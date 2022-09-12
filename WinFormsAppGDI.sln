@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppGDI", "WinFormsAppGDI\WinFormsAppGDI.csproj", "{32583DEA-050A-411F-AB9D-88DEC46A73B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAppGDI", "WinFormsAppGDI\WinFormsAppGDI.csproj", "{32583DEA-050A-411F-AB9D-88DEC46A73B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWourk_Paint", "HomeWourk_Paint\HomeWourk_Paint.csproj", "{6EA8EFF8-A4BF-4408-987C-0DC493C8430D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{32583DEA-050A-411F-AB9D-88DEC46A73B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32583DEA-050A-411F-AB9D-88DEC46A73B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32583DEA-050A-411F-AB9D-88DEC46A73B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA8EFF8-A4BF-4408-987C-0DC493C8430D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA8EFF8-A4BF-4408-987C-0DC493C8430D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA8EFF8-A4BF-4408-987C-0DC493C8430D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA8EFF8-A4BF-4408-987C-0DC493C8430D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
